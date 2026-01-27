@@ -1,0 +1,32 @@
+# Основа
+Flask==2.3.2
+Flask-RESTful==0.3.10
+Flask-SQLAlchemy==3.0.5
+Flask-Cors==4.0.0
+aiogram==3.0.0b7
+cryptography==41.0.3
+requests==2.31.0
+python-dotenv==1.0.0
+
+# БД
+SQLAlchemy==2.0.20
+sqlite3==3.42.0  # Встроен в Python, но можно указать для ясности
+
+# Для фоновых задач
+celery==5.3.4
+redis==5.0.0
+
+# Для тестов
+pytest==7.4.0
+pytest-cov==4.1.0
+requests-mock==1.11.0
+
+# Для разработки
+black==23.9.1
+flake8==6.1.0
+isort==5.12.0
+
+# Дополнительные утилиты
+qrcode==7.4.2  # Для генерации QR-кодов
+pyjwt==2.8.0  # Для JWT-аутентификации
+websockets==11.0.3  # Для P2P-сети
